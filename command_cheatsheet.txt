@@ -1,0 +1,16 @@
+receiver.py
+sudo python3 utils/receiver.py s1 
+
+tag_data.py
+
+Normal traffic:
+sudo python3 utils/tag_data.py 0
+
+Attack traffic: 
+sudo python3 utils/tag_data.py 1
+
+controller.py
+sudo python3 utils/controller.py entropy
+
+
+
